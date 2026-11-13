@@ -1,0 +1,7 @@
+<view class="page">
+  <view class="sketch-card empty">
+    <view class="empty-emoji">🧺</view>
+    <view class="empty-tip">{{tip}}</view>
+    <button class="sketch-btn" bindtap="goGoods">去挑果子</button>
+  </view>
+</view>

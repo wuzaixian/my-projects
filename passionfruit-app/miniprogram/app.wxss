@@ -1,0 +1,36 @@
+/**
+ * 全局样式 —— 简笔画手绘风格色板
+ * 使用原则：暖底 + 果实紫 + 山林绿，圆角大、描边粗、留白多
+ */
+page {
+  /* 色板变量（WXSS 无原生变量，此处作为约定注释供全局对齐） */
+  /* --bg-paper: #FBF5E9  米纸底 */
+  /* --ink: #4A3B2A         手绘墨色 */
+  /* --fruit: #7B3F98       百香果紫 */
+  /* --leaf: #5E8C4A        高山叶绿 */
+  /* --accent: #E8A33D       果肉橙 */
+
+  background-color: #FBF5E9;
+  color: #4A3B2A;
+  font-size: 30rpx;
+}
+
+/* 手绘卡片基础样式：粗描边 + 大圆角 */
+.sketch-card {
+  background: #FFFDF7;
+  border: 4rpx solid #4A3B2A;
+  border-radius: 24rpx;
+  box-shadow: 6rpx 6rpx 0 rgba(74, 59, 42, 0.15);
+  padding: 24rpx;
+  margin: 24rpx;
+}
+
+.sketch-btn {
+  background: #7B3F98;
+  color: #FFFDF7;
+  border: 4rpx solid #4A3B2A;
+  border-radius: 999rpx;
+  box-shadow: 4rpx 4rpx 0 rgba(74, 59, 42, 0.25);
+  padding: 16rpx 48rpx;
+  font-weight: bold;
+}

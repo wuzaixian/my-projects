@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="sketch-card hero">
+    <view class="hero-emoji">🫐</view>
+    <view class="hero-title">榕江高山百香果</view>
+    <view class="hero-slogan">{{slogan}}</view>
+    <view class="hero-sub">手绘小果 · 山民手作 · 现摘现发</view>
+    <button class="sketch-btn" bindtap="goGoods">进店逛逛</button>
+  </view>
+
+  <view class="sketch-card">
+    <view class="card-title">为什么是高山百香果？</view>
+    <view class="point">⛰️ 海拔千米，昼夜温差大，果子更甜</view>
+    <view class="point">💧 云雾滋养，不打催熟剂</view>
+    <view class="point">📦 下单才采摘，48 小时到您家</view>
+  </view>
+</view>

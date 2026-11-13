@@ -1,0 +1,14 @@
+<view class="page">
+  <view wx:if="{{loading}}" class="loading">正在挑果中……</view>
+
+  <view wx:for="{{goodsList}}" wx:key="id" class="sketch-card goods-item">
+    <view class="goods-name">{{item.name}}</view>
+    <view class="goods-desc">{{item.desc}}</view>
+    <view class="goods-price">¥ {{item.price}}</view>
+    <button class="sketch-btn small" size="mini">加入果篮</button>
+  </view>
+
+  <view wx:if="{{!loading && goodsList.length === 0}}" class="loading">
+    果子还在树上，过两天再来～
+  </view>
+</view>

@@ -1,0 +1,3 @@
+.empty { text-align: center; padding: 80rpx 24rpx; }
+.empty-emoji { font-size: 80rpx; }
+.empty-tip { color: #8C7A5B; margin: 24rpx 0 32rpx; }

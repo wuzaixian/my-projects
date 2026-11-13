@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="sketch-card profile">
+    <view class="avatar">🍇</view>
+    <view class="nickname">{{logged ? nickname : '果友'}}</view>
+  </view>
+
+  <view class="sketch-card menu">
+    <view class="menu-item">我的订单</view>
+    <view class="menu-item">收货地址</view>
+    <view class="menu-item">联系果农小勇</view>
+    <view class="menu-item">关于高山百香果</view>
+  </view>
+</view>

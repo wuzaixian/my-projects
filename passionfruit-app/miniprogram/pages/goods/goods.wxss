@@ -1,0 +1,5 @@
+.loading { text-align: center; padding: 80rpx; color: #8C7A5B; }
+.goods-name { font-weight: bold; font-size: 32rpx; }
+.goods-desc { color: #8C7A5B; font-size: 26rpx; margin: 8rpx 0; }
+.goods-price { color: #E07B39; font-weight: bold; font-size: 36rpx; margin-bottom: 16rpx; }
+.sketch-btn.small { font-size: 26rpx; }

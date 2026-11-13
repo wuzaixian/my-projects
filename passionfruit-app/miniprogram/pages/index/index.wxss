@@ -1,0 +1,14 @@
+.hero {
+  text-align: center;
+  padding: 60rpx 24rpx;
+}
+.hero-emoji { font-size: 96rpx; }
+.hero-title {
+  font-size: 44rpx;
+  font-weight: bold;
+  margin: 16rpx 0 8rpx;
+}
+.hero-slogan { font-size: 28rpx; color: #7B3F98; }
+.hero-sub { font-size: 24rpx; color: #8C7A5B; margin: 16rpx 0 32rpx; }
+.card-title { font-weight: bold; margin-bottom: 16rpx; }
+.point { margin: 12rpx 0; }

@@ -1,0 +1,5 @@
+.profile { display: flex; align-items: center; }
+.avatar { font-size: 64rpx; margin-right: 24rpx; }
+.nickname { font-weight: bold; }
+.menu-item { padding: 24rpx 8rpx; border-bottom: 2rpx dashed #D8CBAF; }
+.menu-item:last-child { border-bottom: none; }
